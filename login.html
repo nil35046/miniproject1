@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body align="center">
+    <h2>Login Form</h2>
+
+
+
+<div id="id01" class="modal" align="center">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+        &nbsp;&nbsp;&nbsp;&nbsp; <br><br>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      &nbsp;&nbsp;&nbsp;&nbsp;<br><br>
+      <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label> <br><br>
+      <button type="submit">Login</button>
+      &nbsp;&nbsp;&nbsp;&nbsp;<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">
+        Cancel</button><br>
+      <div class="container" style="background-color:#f1f1f1">
+      
+      <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
